@@ -5,14 +5,14 @@
   import Social from './Social.svelte'
 </script>
 
-<header class="fixed w-screen top-0">
+<header class="w-screen top-0">
   <nav
     class="flex items-center justify-between container mx-auto pr-4 pt-2 text-fkWhite"
   >
     <!-- Logo -->
     <div class="text-fkWhite items-baseline rounded flex text-3xl">
       <img class="h-9 mx-1 my-1" src={fkLogo} alt="Form Key Logo" />
-      <h1 class="">ormKey</h1>
+      <h1 class="hidden lg:block">ormKey</h1>
     </div>
     <!-- End logo -->
 

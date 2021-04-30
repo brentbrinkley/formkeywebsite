@@ -3,7 +3,6 @@
   import DownloadButton from './DownloadButton.svelte'
   import ipadIcon from '../assets/whiteipad.svg'
   import iphoneIcon from '../assets/iphonewhite.svg'
-  import SocialButtons from './SocialButtons.svelte'
   import LearnButton from './LearnButton.svelte'
 </script>
 
@@ -20,7 +19,6 @@
     repudiandae vitae dolor dignissimos adipisci odio, repellendus rem,
     excepturi saepe!
   </p>
-
   <div class="flex items-center justify-center my-8 ">
     <div class="mr-6">
       <DownloadButton />
@@ -33,8 +31,5 @@
     <div>
       <img class="h-12" src={iphoneIcon} alt="" />
     </div> -->
-  </div>
-  <div>
-    <SocialButtons />
   </div>
 </div>

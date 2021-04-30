@@ -4,7 +4,7 @@
   import social from './social'
 </script>
 
-<div class="flex items-center justify-evenly py-6">
+<div class="flex items-center justify-start">
   {#each socialData as social}
     <Social
       link={social.link}
