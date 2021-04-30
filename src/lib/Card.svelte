@@ -7,7 +7,7 @@
   import LearnButton from './LearnButton.svelte'
 </script>
 
-<div class="text-fkWhite pr-5">
+<div class="text-fkWhite lg:pr-5 container mx-auto px-2">
   <h1 class="text-4xl">Welcome to the future of music creation</h1>
   <p class="py-3">
     FormKey is the first instrument designed so that anyone can learn how to
