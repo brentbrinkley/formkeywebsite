@@ -16,7 +16,9 @@
     FormKey's note grid also aids in playability. Learn a melody or a chord once
     and the pattern is the same no matter where you move your hands.
   </p>
-  <div class="flex items-center justify-center mt-6 gap-3">
+  <div
+    class="flex items-center justify-center mt-6 gap-3 flex-wrap mb-6 lg:mb-0"
+  >
     <div class="">
       <DownloadButton />
     </div>

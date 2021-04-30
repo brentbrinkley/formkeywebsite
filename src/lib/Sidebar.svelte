@@ -2,7 +2,7 @@
   import SocialButtons from './SocialButtons.svelte'
 </script>
 
-<div class="absolute left-0 top-1/3 hidden md:block">
+<div class="static lg:absolute lg:left-0 lg:top-1/3 ">
   <div class="">
     <SocialButtons />
   </div>

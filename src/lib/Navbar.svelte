@@ -18,7 +18,7 @@
     <div class="hidden md:flex items-center justify-around text-fkWhite gap-4">
       <a class="" href="#">Press Kit</a>
       <a class="" href="#">Get In Touch</a>
-      <a class="" href="#">Support Our Efforts</a>
+      <a class="" href="https://www.buymeacoffee.com/S8VWrdFUg">Help Us Grow</a>
     </div>
     <!-- End links -->
   </nav>
