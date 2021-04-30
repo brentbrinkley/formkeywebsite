@@ -5,7 +5,8 @@
 </script>
 
 <div
-  class="flex flex-col justify-items-center bg-fkGray bg-opacity-40 rounded-r-xl"
+  class="flex flex-col justify-items-center bg-fkWhite bg-opacity-40 rounded-r-xl bg-clip-padding"
+  style="backdrop-filter: blur(80px);"
 >
   {#each socialData as social}
     <Social

@@ -19,7 +19,7 @@
     repudiandae vitae dolor dignissimos adipisci odio, repellendus rem,
     excepturi saepe!
   </p>
-  <div class="flex items-center justify-center">
+  <div class="flex items-center justify-center mt-6">
     <div class="mr-6">
       <DownloadButton />
     </div>

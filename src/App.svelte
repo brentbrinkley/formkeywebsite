@@ -15,11 +15,11 @@
 
 <!-- <img class="object-cover object-center h-screen w-full" src={fkBG} alt="" /> -->
 <main
-  class="h-screen bg-cover bg-no-repeat object-cover relative"
+  class="h-screen bg-cover bg-no-repeat object-cover"
   style="background-image: url('{backdrop}');"
 >
   <div class="h-screen bg-fkGreen bg-opacity-60">
-    <div class="h-screen bg-gradient-to-tr from-fkGreen">
+    <div class="h-screen bg-gradient-to-tr from-fkGreen relative">
       <div class="h-full container mx-auto px-10 content-center">
         <Navbar />
         <div class="">
