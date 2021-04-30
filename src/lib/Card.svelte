@@ -1,26 +1,23 @@
 <script>
   import ipad from '../assets/fullipad.png'
   import DownloadButton from './DownloadButton.svelte'
-  import ipadIcon from '../assets/whiteipad.svg'
-  import iphoneIcon from '../assets/iphonewhite.svg'
+
   import LearnButton from './LearnButton.svelte'
 </script>
 
 <div class="text-fkWhite">
-  <h1 class="text-4xl">Welcome to the future of music creation</h1>
+  <h1 class="text-4xl">Welcome to the future of music creation!</h1>
   <p class="py-3">
-    FormKey is the first instrument designed so that anyone can learn how to
-    play music. Octaves are color based and each note has a shape. Welcome to
-    the future
+    FormKey is the first instrument designed so that anyone can create music.
+    Each note has it's own shape and each octave is separated by color. Making
+    note patterns easy to remember and play.
   </p>
   <p class="pb-3">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat, quo
-    enim nesciunt molestiae cupiditate reprehenderit dolorum nostrum aut veniam
-    repudiandae vitae dolor dignissimos adipisci odio, repellendus rem,
-    excepturi saepe!
+    FormKey's note grid also aids in playability. Learn a melody or a chord once
+    and the pattern is the same no matter where you move your hands.
   </p>
-  <div class="flex items-center justify-center mt-6">
-    <div class="mr-6">
+  <div class="flex items-center justify-center mt-6 gap-3">
+    <div class="">
       <DownloadButton />
     </div>
     <LearnButton />

@@ -6,6 +6,7 @@
   import Poster from './lib/Hero.svelte'
   import Hero from './lib/Hero.svelte'
   import Sidebar from './lib/Sidebar.svelte'
+  import Footer from './lib/Footer.svelte'
 
   let imageURL =
     'https://images.unsplash.com/photo-1599009432364-3dc0d1932da2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80'
@@ -20,13 +21,12 @@
 >
   <div class="h-screen bg-fkGreen bg-opacity-60">
     <div class="h-screen bg-gradient-to-tr from-fkGreen relative">
-      <div class="h-full container mx-auto px-10 content-center">
+      <div class="h-full container mx-auto px-10 relative">
         <Navbar />
-        <div class="">
-          <Hero />
-          <Sidebar />
-        </div>
+        <Hero />
+        <Footer />
       </div>
     </div>
+    <Sidebar />
   </div>
 </main>

@@ -15,10 +15,10 @@
     <!-- End logo -->
 
     <!-- Links -->
-    <div class="hidden md:flex items-center justify-around text-fkWhite">
+    <div class="hidden md:flex items-center justify-around text-fkWhite gap-4">
       <a class="" href="#">Press Kit</a>
-      <a class="ml-6" href="#">Get In Touch</a>
-      <a class="ml-6" href="#">Support Our Efforts</a>
+      <a class="" href="#">Get In Touch</a>
+      <a class="" href="#">Support Our Efforts</a>
     </div>
     <!-- End links -->
   </nav>
