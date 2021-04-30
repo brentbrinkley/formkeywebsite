@@ -4,7 +4,7 @@
   export let iconName
 </script>
 
-<div class="text-fkWhite text-2xl px-2">
+<div class="text-fkWhite text-2xl p-4">
   <a href={link} alt={title}>
     <i class={iconName} />
   </a>

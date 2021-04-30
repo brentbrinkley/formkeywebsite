@@ -4,7 +4,9 @@
   import social from './social'
 </script>
 
-<div class="flex items-center justify-start">
+<div
+  class="flex flex-col justify-items-center bg-fkGray bg-opacity-40 rounded-r-xl"
+>
   {#each socialData as social}
     <Social
       link={social.link}

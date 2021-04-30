@@ -6,7 +6,7 @@
   import LearnButton from './LearnButton.svelte'
 </script>
 
-<div class="text-fkWhite lg:pr-5 container mx-auto px-3">
+<div class="text-fkWhite">
   <h1 class="text-4xl">Welcome to the future of music creation</h1>
   <p class="py-3">
     FormKey is the first instrument designed so that anyone can learn how to
@@ -19,17 +19,10 @@
     repudiandae vitae dolor dignissimos adipisci odio, repellendus rem,
     excepturi saepe!
   </p>
-  <div class="flex items-center justify-center my-8 ">
+  <div class="flex items-center justify-center">
     <div class="mr-6">
       <DownloadButton />
     </div>
     <LearnButton />
-
-    <!-- <div>
-      <img class="h-16 px-2" src={ipadIcon} alt="" />
-    </div>
-    <div>
-      <img class="h-12" src={iphoneIcon} alt="" />
-    </div> -->
   </div>
 </div>
