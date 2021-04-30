@@ -17,11 +17,10 @@
     <!-- End logo -->
 
     <!-- Links -->
-    <div class="flex items-center justify-around text-fkWhite">
-      <!-- <DownloadButton /> -->
-      <a class="mx-4" href="">Press Kit</a>
+    <div class="hidden md:flex items-center justify-around text-fkWhite">
+      <a class="mx-4" href="#">Press Kit</a>
       <a href="#">Get In Touch</a>
-      <a class="mx-4" href="">Support Our Efforts</a>
+      <a class="mx-4" href="#">Support Our Efforts</a>
     </div>
     <!-- End links -->
   </nav>
