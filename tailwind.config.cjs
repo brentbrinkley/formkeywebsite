@@ -27,6 +27,10 @@ module.exports = {
 				"fkGray": "#C6BFB7",
 				"fkText": "#878682",
 				"fkBlack": "#424242"
+			},
+			fontFamily: {
+				headline: ['Quicksand'],
+				body: ['Poppins']
 			}
 		},
 	},

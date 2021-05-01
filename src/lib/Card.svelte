@@ -6,13 +6,15 @@
 </script>
 
 <div class="text-fkWhite">
-  <h1 class="text-4xl">Welcome to the future of music creation!</h1>
-  <p class="py-3">
+  <h1 class="text-4xl font-headline font-medium">
+    Welcome to the future of music creation
+  </h1>
+  <p class="py-3 font-body font-light">
     FormKey is the first instrument designed so that anyone can create music.
     Each note has it's own shape and each octave is separated by color. Making
     note patterns easy to remember and play.
   </p>
-  <p class="pb-3">
+  <p class="pb-3 font-body font-light">
     FormKey's note grid also aids in playability. Learn a melody or a chord once
     and the pattern is the same no matter where you move your hands.
   </p>
