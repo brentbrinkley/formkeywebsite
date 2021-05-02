@@ -21,9 +21,11 @@
   <div
     class="flex items-center justify-center mt-6 gap-3 flex-wrap mb-6 lg:mb-0"
   >
-    <div class="">
+    <div class="hover:opacity-80 transition duration-300">
       <DownloadButton />
     </div>
-    <LearnButton />
+    <div class="hover:opacity-80 transition duration-300">
+      <LearnButton />
+    </div>
   </div>
 </div>
