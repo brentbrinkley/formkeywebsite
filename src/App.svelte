@@ -6,6 +6,7 @@
   import Router from 'svelte-spa-router'
   import Home from './lib/Home.svelte'
   import Presskit from './lib/Presskit.svelte'
+  import { slide } from 'svelte/transition'
 </script>
 
 <!-- <main> -->
@@ -21,12 +22,15 @@
     >
       <div class="h-full container mx-auto px-4 lg:px-10 relative">
         <Navbar />
-        <Router
-          routes={{
-            '/': Home,
-            '/presskit': Presskit
-          }}
-        />
+        <div transition:slide class="">
+          <Router
+            routes={{
+              '/': Home,
+              '/presskit': Presskit
+            }}
+          />
+        </div>
+
         <Footer />
         <div class="lg:hidden">
           <Sidebar />
