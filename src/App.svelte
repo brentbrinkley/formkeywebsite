@@ -7,6 +7,7 @@
   import Home from './lib/Home.svelte'
   import Presskit from './lib/Presskit.svelte'
   import { slide } from 'svelte/transition'
+  import Guides from './lib/Guides.svelte'
 </script>
 
 <!-- <main> -->
@@ -26,7 +27,8 @@
           <Router
             routes={{
               '/': Home,
-              '/presskit': Presskit
+              '/presskit': Presskit,
+              '/guides': Guides
             }}
           />
         </div>

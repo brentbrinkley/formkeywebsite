@@ -1,10 +1,27 @@
 <script>
+  import { each } from 'svelte/internal'
   import fkLogo from '../assets/fkLogo-white.svg'
 
   var showMenu = false
-  import { slide } from 'svelte/transition'
-
   let toggleMenu = () => (showMenu = !showMenu)
+  let navData = [
+    {
+      title: 'Press Kit',
+      link: '#/presskit'
+    },
+    {
+      title: 'Guides',
+      link: '#/guides'
+    },
+    {
+      title: 'Get In Touch',
+      link: 'mailto:brentbrinkley@gmail.com'
+    },
+    {
+      title: 'Help Us Grow',
+      link: 'https://www.buymeacoffee.com/S8VWrdFUg'
+    }
+  ]
 </script>
 
 <header class="mb-6">
@@ -24,17 +41,11 @@
     <div
       class="hidden md:flex items-center justify-around text-fkWhite gap-4 font-headline "
     >
-      <a class="hover:opacity-80 transition duration-300" href="#/presskit"
-        >Press Kit</a
-      >
-      <a
-        class="hover:opacity-80 transition duration-300"
-        href="mailto:brentbrinkley@gmail.com">Get In Touch</a
-      >
-      <a
-        class="hover:opacity-80 transition duration-300"
-        href="https://www.buymeacoffee.com/S8VWrdFUg">Help Us Grow</a
-      >
+      {#each navData as nav}
+        <a class="hover:opacity-80 transition duration-300" href={nav.link}
+          >{nav.title}</a
+        >
+      {/each}
     </div>
     <!-- End links -->
 
@@ -57,30 +68,22 @@
         </svg>
       </button>
     </div>
-    <!-- End mobile Nav -->
+    <!-- End mobile Nav Icon -->
   </nav>
   <!-- Mobile links -->
-  <!-- {#if showMenu} -->
   <div
     class="fixed md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 z-30 bg-opacity-60 rounded-r-2xl transform {showMenu
       ? ''
-      : '-translate-x-full'} transition duration-500 ease-in-out"
+      : '-translate-x-full'} transition duration-500 ease-in-out pt-10"
     style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);"
   >
-    <a
-      on:click={toggleMenu}
-      class=" block hover:opacity-80 transition duration-300 py-8 text-fkGreen"
-      href="#/presskit">Press Kit</a
-    >
-    <a
-      on:click={toggleMenu}
-      class=" block hover:opacity-80 transition duration-300 text-fkGreen"
-      href="mailto:brentbrinkley@gmail.com">Get In Touch</a
-    >
-    <a
-      class=" block hover:opacity-80 transition duration-300 py-8 text-fkGreen"
-      href="https://www.buymeacoffee.com/S8VWrdFUg">Help Us Grow</a
-    >
+    {#each navData as nav}
+      <a
+        on:click={toggleMenu}
+        class=" block hover:opacity-80 transition duration-300 pb-10 text-fkGreen"
+        href={nav.link}>{nav.title}</a
+      >
+    {/each}
   </div>
-  <!-- {/if} -->
+  <!-- End Mobile links -->
 </header>
