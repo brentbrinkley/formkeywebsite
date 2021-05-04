@@ -23,7 +23,7 @@
     </ul>
   </div>
 
-  <div class="grid grid-cols-2 gap-2">
+  <div class="grid grid-cols-2 gap-y-2 gap-x-8">
     <div>
       <h1 class="text-4xl font-headline mb-1">Developer</h1>
       <p class="pl-3 font-body mb-4 font-light">

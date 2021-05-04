@@ -62,11 +62,10 @@
   <!-- Mobile links -->
   <!-- {#if showMenu} -->
   <div
-    transition:slide|local
-    class="min-h-full absolute md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 bg-opacity-90 transform {showMenu
+    class="min-h-full absolute md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 z-30 bg-opacity-60 rounded-r-2xl transform {showMenu
       ? ''
       : '-translate-x-full'} transition duration-500 ease-in-out"
-    style="backdrop-filter: blur(80px);"
+    style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);"
   >
     <a
       on:click={toggleMenu}
