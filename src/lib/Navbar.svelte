@@ -10,7 +10,7 @@
 <header class="mb-6">
   <nav class="flex items-center justify-between pt-2 text-fkWhite">
     <!-- Logo -->
-    <a href="/#/">
+    <a class="focus:outline-none outline-none active:outline-none" href="/#/">
       <div
         class="text-fkWhite items-baseline rounded flex text-3xl hover:opacity-80 transition duration-300"
       >
@@ -62,7 +62,7 @@
   <!-- Mobile links -->
   <!-- {#if showMenu} -->
   <div
-    class="min-h-full absolute md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 z-30 bg-opacity-60 rounded-r-2xl transform {showMenu
+    class="fixed md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 z-30 bg-opacity-60 rounded-r-2xl transform {showMenu
       ? ''
       : '-translate-x-full'} transition duration-500 ease-in-out"
     style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);"
