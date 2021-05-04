@@ -69,10 +69,12 @@
     style="backdrop-filter: blur(80px);"
   >
     <a
+      on:click={toggleMenu}
       class=" block hover:opacity-80 transition duration-300 py-8 text-fkGreen"
       href="#/presskit">Press Kit</a
     >
     <a
+      on:click={toggleMenu}
       class=" block hover:opacity-80 transition duration-300 text-fkGreen"
       href="mailto:brentbrinkley@gmail.com">Get In Touch</a
     >
