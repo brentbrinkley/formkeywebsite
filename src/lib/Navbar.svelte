@@ -60,23 +60,26 @@
     <!-- End mobile Nav -->
   </nav>
   <!-- Mobile links -->
-  {#if showMenu}
-    <div
-      transition:slide|local
-      class="inline-block md:hidden text-fkWhite font-headline font-semibold text-xl"
+  <!-- {#if showMenu} -->
+  <div
+    transition:slide|local
+    class="min-h-full absolute md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 bg-opacity-90 transform {showMenu
+      ? ''
+      : '-translate-x-full'} transition duration-500 ease-in-out"
+    style="backdrop-filter: blur(80px);"
+  >
+    <a
+      class=" block hover:opacity-80 transition duration-300 py-8 text-fkGreen"
+      href="#/presskit">Press Kit</a
     >
-      <a
-        class=" block hover:opacity-80 transition duration-300 py-8"
-        href="#/presskit">Press Kit</a
-      >
-      <a
-        class=" block hover:opacity-80 transition duration-300"
-        href="mailto:brentbrinkley@gmail.com">Get In Touch</a
-      >
-      <a
-        class=" block hover:opacity-80 transition duration-300 py-8"
-        href="https://www.buymeacoffee.com/S8VWrdFUg">Help Us Grow</a
-      >
-    </div>
-  {/if}
+    <a
+      class=" block hover:opacity-80 transition duration-300 text-fkGreen"
+      href="mailto:brentbrinkley@gmail.com">Get In Touch</a
+    >
+    <a
+      class=" block hover:opacity-80 transition duration-300 py-8 text-fkGreen"
+      href="https://www.buymeacoffee.com/S8VWrdFUg">Help Us Grow</a
+    >
+  </div>
+  <!-- {/if} -->
 </header>
