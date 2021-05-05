@@ -27,7 +27,7 @@
 <header class="mb-6">
   <nav class="flex items-center justify-between pt-2 text-fkWhite">
     <!-- Logo -->
-    <a class="focus:outline-none outline-none active:outline-none" href="/#/">
+    <a class="active:bg-green-700" href="/#/">
       <div
         class="text-fkWhite items-baseline rounded flex text-3xl hover:opacity-80 transition duration-300"
       >
@@ -42,8 +42,10 @@
       class="hidden md:flex items-center justify-around text-fkWhite gap-4 font-headline "
     >
       {#each navData as nav}
-        <a class="hover:opacity-80 transition duration-300" href={nav.link}
-          >{nav.title}</a
+        <a
+          on:pointerup|preventDefault
+          class="hover:opacity-80 transition duration-300 outline-none"
+          href={nav.link}>{nav.title}</a
         >
       {/each}
     </div>
@@ -80,7 +82,7 @@
     {#each navData as nav}
       <a
         on:click={toggleMenu}
-        class=" block hover:opacity-80 transition duration-300 pb-10 text-fkGreen"
+        class=" block hover:opacity-80 transition duration-300 mb-10 text-fkGreen"
         href={nav.link}>{nav.title}</a
       >
     {/each}
