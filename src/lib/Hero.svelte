@@ -8,6 +8,6 @@
     <Card />
   </div>
   <div class="hidden lg:block lg:w-2/3 pl-2 pt-2">
-    <img src={ipad} alt="" />
+    <img class="filter drop-shadow-2xl" src={ipad} alt="" />
   </div>
 </div>
