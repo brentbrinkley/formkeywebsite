@@ -42,9 +42,8 @@
       class="hidden md:flex items-center justify-around text-fkWhite gap-4 font-headline"
     >
       {#each navData as nav}
-        <a
-          class="hover:opacity-80 transition duration-300 outline-none"
-          href={nav.link}>{nav.title}</a
+        <a class="hover:opacity-80 transition duration-300" href={nav.link}
+          >{nav.title}</a
         >
       {/each}
     </div>
