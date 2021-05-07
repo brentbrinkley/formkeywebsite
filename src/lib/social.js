@@ -18,9 +18,3 @@ let social = [
 ]
 
 export default social
-
-//  <!-- fab fa-medium-m -->
-//   <!-- <i class="" />
-//   <i class="" />
-//   <i class="" />
-//   <i class="" /> -->

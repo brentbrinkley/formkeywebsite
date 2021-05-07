@@ -26,7 +26,7 @@
 
 <header class="mb-6">
   <nav class="flex items-center justify-between pt-2 text-fkWhite">
-    <!-- Logo -->
+    <!-- Logo Start -->
     <a class="active:bg-green-700" href="/#/">
       <div
         class="text-fkWhite items-baseline rounded flex text-3xl hover:opacity-80 transition duration-300"

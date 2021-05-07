@@ -1,7 +1,6 @@
 <script>
   import Social from './Social.svelte'
   import socialData from './social'
-  import social from './social'
 </script>
 
 <div
