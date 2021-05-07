@@ -74,7 +74,7 @@
   <div
     class="fixed md:hidden inset-y-0 left-0 text-fkWhite font-headline font-semibold text-xl bg-fkWhite px-4 z-30 bg-opacity-60 rounded-r-2xl transform {showMenu
       ? ''
-      : '-translate-x-full'} transition duration-500 ease-in-out pt-10 backdrop-filter backdrop-blur-xl"
+      : '-translate-x-full'} transition duration-500 ease-in-out pt-10"
   >
     {#each navData as nav}
       <a
