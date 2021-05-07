@@ -39,11 +39,10 @@
 
     <!-- Links -->
     <div
-      class="hidden md:flex items-center justify-around text-fkWhite gap-4 font-headline "
+      class="hidden md:flex items-center justify-around text-fkWhite gap-4 font-headline"
     >
       {#each navData as nav}
         <a
-          on:pointerup|preventDefault
           class="hover:opacity-80 transition duration-300 outline-none"
           href={nav.link}>{nav.title}</a
         >
