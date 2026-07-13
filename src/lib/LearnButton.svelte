@@ -3,7 +3,7 @@
   ><div
     class="h-16 border-fkWhite border-2 rounded-xl flex items-center justify-items-center content-center p-3"
   >
-    <i class="fab fa-medium-m text-4xl pr-2 " />
+    <i class="fab fa-medium-m text-4xl pr-2 "></i>
     <div class="text-2xl">Learn More</div>
   </div>
 </a>

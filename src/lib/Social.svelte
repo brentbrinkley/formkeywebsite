@@ -8,6 +8,6 @@
   class="text-fkWhite text-3xl lg:text-2xl p-4 hover:opacity-40 transition duration-300"
 >
   <a href={link} alt={title}>
-    <i class={iconName} />
+    <i class={iconName}></i>
   </a>
 </div>

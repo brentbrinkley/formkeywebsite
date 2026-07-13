@@ -17,9 +17,9 @@
   class="bg-cover bg-no-repeat"
   style="background-image: url('{backdrop}');"
 >
-  <div class="h-screen bg-fkGreen bg-opacity-60">
+  <div class="h-screen bg-fkGreen/60">
     <div
-      class="h-screen bg-gradient-to-t lg:bg-gradient-to-tr from-fkGreen relative"
+      class="h-screen bg-linear-to-t lg:bg-linear-to-tr from-fkGreen relative"
     >
       <div class="h-full container mx-auto px-4 lg:px-10 relative">
         <Navbar />

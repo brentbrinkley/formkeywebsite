@@ -1,0 +1,17 @@
+/* Global styles — Tailwind v4 CSS-first config */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&family=Quicksand:wght@300;400;500&family=Roboto&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-fkGreen: #47b8af;
+  --color-fkOrange: #faaf43;
+  --color-fkRed: #f16c66;
+  --color-fkBlue: #64cdea;
+  --color-fkWhite: #fbf4e9;
+  --color-fkGray: #c6bfb7;
+  --color-fkText: #878682;
+  --color-fkBlack: #424242;
+
+  --font-headline: Quicksand, sans-serif;
+  --font-body: Poppins, sans-serif;
+}
