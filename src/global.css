@@ -14,4 +14,7 @@
 
   --font-headline: Quicksand, sans-serif;
   --font-body: Poppins, sans-serif;
+
+  /* Matches Apple's App Store badge — renders SF Pro on Apple devices */
+  --font-appstore: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, 'Segoe UI', Roboto, sans-serif;
 }

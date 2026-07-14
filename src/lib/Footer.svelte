@@ -1,5 +1,5 @@
 <script>
-  import poly from '../assets/poly.svg'
+  import poly from '../assets/polyhedra-logo.png'
 </script>
 
 <div
@@ -7,6 +7,6 @@
 >
   <div class="font-thin">Powered by</div>
 
-  <img class="w-5" src={poly} alt="" />
+  <img class="w-5" src={poly} alt="Polyhedra" />
   <!-- <div class="font-thin">&#169 2021</div> -->
 </div>

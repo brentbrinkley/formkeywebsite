@@ -7,7 +7,7 @@
 <div>
   <a href={appstoreLink}>
     <img
-      class="h-16 border-fkWhite border-2 rounded-xl"
+      class="h-[clamp(2.25rem,15.5cqw,3.5rem)] border-fkWhite border-2 rounded-xl"
       src={appButton}
       alt="app store download button"
     />

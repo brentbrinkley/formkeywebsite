@@ -4,13 +4,14 @@
 </script>
 
 <div
-  class="flex flex-col items-center justify-around  lg:bg-fkWhite/60 py-2 rounded-r-xl lg:w-auto z-30 backdrop-blur-lg"
+  class="flex flex-row items-center justify-center py-2"
 >
   {#each socialData as social}
     <Social
       link={social.link}
       title={social.title}
       iconName={social.iconName}
+      svg={social.svg}
     />
   {/each}
 </div>

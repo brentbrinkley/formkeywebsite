@@ -6,9 +6,9 @@ let social = [
 
     },
     {
-        link: "https://twitter.com/WeArePolyhedra",
-        title:"Twitter",
-        iconName: "fab fa-twitter"
+        link: "https://x.com/WeArePolyhedra",
+        title: "X",
+        svg: "x"
     },
     {
         link: "https://www.instagram.com/wearepolyhedra/",

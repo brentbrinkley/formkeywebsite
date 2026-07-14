@@ -1,12 +1,12 @@
 <!-- <div>Hello World</div> -->
 <script>
   import Hero from './Hero.svelte'
-  import fullipad from '../assets/fullipad.png'
+  import IpadVideo from './IpadVideo.svelte'
 </script>
 
 <div>
   <div class="lg:hidden mb-5">
-    <img src={fullipad} alt="" />
+    <IpadVideo />
   </div>
   <Hero />
 </div>
