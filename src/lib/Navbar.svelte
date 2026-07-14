@@ -15,7 +15,7 @@
     },
     {
       title: 'Get In Touch',
-      link: 'mailto:brentbrinkley@gmail.com'
+      link: 'mailto:bbrinkley@formkey.app'
     },
     {
       title: 'Help Us Grow',
