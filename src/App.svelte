@@ -2,7 +2,7 @@
   import Navbar from './lib/Navbar.svelte'
   import backdrop from './assets/backdrop.png'
   import Footer from './lib/Footer.svelte'
-  import VideoModal from './lib/VideoModal.svelte'
+  // import VideoModal from './lib/VideoModal.svelte' // hidden until launch
   import Router from 'svelte-spa-router'
   import Home from './lib/Home.svelte'
   import Presskit from './lib/Presskit.svelte'
@@ -39,4 +39,4 @@
   </div>
 </main>
 
-<VideoModal />
+<!-- Video hidden until launch: <VideoModal /> -->
