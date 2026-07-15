@@ -1,5 +1,5 @@
 <script>
-  import DownloadButton from './DownloadButton.svelte'
+  // import DownloadButton from './DownloadButton.svelte' // hidden until the app launches
 
   import LearnButton from './LearnButton.svelte'
   import SocialButtons from './SocialButtons.svelte'
@@ -24,9 +24,11 @@
   <div
     class="@container flex items-center justify-center mt-6 gap-2"
   >
+    <!-- App Store button hidden until the app launches:
     <div class="hover:opacity-80 transition duration-300">
       <DownloadButton />
     </div>
+    -->
     <div class="hover:opacity-80 transition duration-300">
       <LearnButton />
     </div>
