@@ -1,25 +1,28 @@
 <script>
-  import ipad from '../assets/fullipad.png'
   import DownloadButton from './DownloadButton.svelte'
 
   import LearnButton from './LearnButton.svelte'
+  import SocialButtons from './SocialButtons.svelte'
 </script>
 
 <div class="text-fkWhite">
   <h1 class="text-4xl font-headline font-medium">
-    Welcome to the future of music creation
+    Unlock your music potential
   </h1>
   <p class="py-3 font-body font-light">
-    FormKey is the first instrument designed so that anyone can create music.
-    Each note has it's own shape and each octave is separated by color. Making
-    note patterns easy to remember and play.
+    FormKey is the first music suite that makes you a better musician as you use
+    it.
   </p>
   <p class="pb-3 font-body font-light">
-    FormKey's note grid also aids in playability. Learn a melody or a chord once
-    and the pattern is the same no matter where you move your hands.
+    Learn Form, a new music language anyone can read, then practice it with real
+    sheet music.
+  </p>
+  <p class="pb-3 font-body font-light">
+    Once you're comfortable, create your own songs in a 16-track sequencer using
+    our new instruments, Tone and Wave, or any AUv3 plugin.
   </p>
   <div
-    class="flex items-center justify-center mt-6 gap-3 flex-wrap mb-6 lg:mb-0"
+    class="@container flex items-center justify-center mt-6 gap-2"
   >
     <div class="hover:opacity-80 transition duration-300">
       <DownloadButton />
@@ -27,5 +30,10 @@
     <div class="hover:opacity-80 transition duration-300">
       <LearnButton />
     </div>
+  </div>
+
+  <!-- Social icons: horizontal row under the main buttons, all sizes -->
+  <div class="mt-6">
+    <SocialButtons />
   </div>
 </div>

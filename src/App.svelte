@@ -1,8 +1,8 @@
 <script>
   import Navbar from './lib/Navbar.svelte'
   import backdrop from './assets/backdrop.png'
-  import Sidebar from './lib/Sidebar.svelte'
   import Footer from './lib/Footer.svelte'
+  // import VideoModal from './lib/VideoModal.svelte' // hidden until launch
   import Router from 'svelte-spa-router'
   import Home from './lib/Home.svelte'
   import Presskit from './lib/Presskit.svelte'
@@ -17,11 +17,11 @@
   class="bg-cover bg-no-repeat"
   style="background-image: url('{backdrop}');"
 >
-  <div class="h-screen bg-fkGreen bg-opacity-60">
+  <div class="min-h-screen bg-fkGreen/25">
     <div
-      class="h-screen bg-gradient-to-t lg:bg-gradient-to-tr from-fkGreen relative"
+      class="min-h-screen bg-linear-to-b lg:bg-linear-to-bl from-fkGreen/40 to-fkOrange/40 bg-black/30 backdrop-blur-lg relative"
     >
-      <div class="h-full container mx-auto px-4 lg:px-10 relative">
+      <div class="min-h-screen container mx-auto px-4 lg:px-10 relative pb-20">
         <Navbar />
         <div transition:slide class="">
           <Router
@@ -34,13 +34,9 @@
         </div>
 
         <Footer />
-        <div class="lg:hidden">
-          <Sidebar />
-        </div>
-      </div>
-      <div class="hidden lg:block">
-        <Sidebar />
       </div>
     </div>
   </div>
 </main>
+
+<!-- Video hidden until launch: <VideoModal /> -->

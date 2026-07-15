@@ -6,5 +6,5 @@
   <div class="">
     <SocialButtons />
   </div>
-  <div />
+  <div></div>
 </div>
